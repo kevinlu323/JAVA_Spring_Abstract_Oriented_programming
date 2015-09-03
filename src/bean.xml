@@ -1,0 +1,8 @@
+<beans>
+	<bean id = "u" class = "com.linkui.dao.impl.UserDAOImpl" />
+	
+	<bean id = "userService" class = "com.linkui.service.UserService">
+		<property name = "userDAO" bean = "u"/>
+	</bean>
+	
+</beans>
