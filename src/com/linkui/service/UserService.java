@@ -1,10 +1,10 @@
 package com.linkui.service;
 
 import com.linkui.dao.UserDAO;
-import com.linkui.dao.impl.UserDAOImpl;
 import com.linkui.model.User;
 
 public class UserService {
+	//Inverse of Control, this will be loaded by Spring
 	private UserDAO userDAO;
 	
 	public UserDAO getUserDAO() {
